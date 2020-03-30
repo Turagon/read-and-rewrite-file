@@ -53,7 +53,7 @@ def main() :
 	while True :
 		w = input("Please input the word you want to look up")
 		if w in count :
-			print("This is the result", count)
+			print("This is the result", count[w])
 		elif w == "q" :
 			break
 		else :
